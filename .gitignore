@@ -1,0 +1,16 @@
+my-first-env/
+venv/
+
+# # Ignore Python cache
+# __pycache__/
+# *.pyc
+
+# # Ignore Jupyter checkpoints
+# .ipynb_checkpoints/
+
+# # VS Code settings
+# .vscode/
+
+# # OS-specific files
+# .DS_Store
+# Thumbs.db
