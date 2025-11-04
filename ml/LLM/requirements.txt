@@ -1,0 +1,22 @@
+# Core
+pypdf==5.0.1
+transformers==4.44.2
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0.post1
+langchain==0.2.12
+numpy==1.26.4
+tqdm==4.66.5
+scikit-learn==1.4.2
+datasets==2.20.0
+accelerate==0.33.0
+peft==0.11.1
+bitsandbytes==0.43.1; platform_system == 'Linux'
+# Windows may not support bitsandbytes; it's optional.
+tiktoken==0.7.0
+# Optional OCR if some pages are scanned
+pytesseract==0.3.10
+Pillow==10.4.0
+# Optional evaluation utilities
+rouge-score==0.1.2
+# Pin torch last (user may choose appropriate build: cpu or cuda). Not installing automatically here.
+# Run: pip install torch --index-url https://download.pytorch.org/whl/cu121  (for CUDA) or pip install torch==2.3.0+cpu --index-url https://download.pytorch.org/whl/cpu
